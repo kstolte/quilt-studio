@@ -2,32 +2,58 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-    <meta name="description" content="Quilt Studio — design scalable quilt patterns, get cutting lists, and share configs with a QR code." />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <meta
+      name="description"
+      content="Quilt Studio — design scalable quilt patterns, get cutting lists, and share configs with a QR code."
+    />
     <meta name="theme-color" content="#b23b2e" />
     <title>Quilt Studio — Quilt Pattern Designer</title>
     <!-- SPA fallback for GitHub Pages: decode the path that 404.html stashed in the query. -->
     <script type="text/javascript">
       (function (l) {
-        if (l.search[1] === "/") {
-          var decoded = l.search.slice(1).split("&").map(function (s) {
-            return s.replace(/~and~/g, "&");
-          }).join("?");
-          window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash);
+        if (l.search[1] === '/') {
+          var decoded = l.search
+            .slice(1)
+            .split('&')
+            .map(function (s) {
+              return s.replace(/~and~/g, '&');
+            })
+            .join('?');
+          window.history.replaceState(
+            null,
+            null,
+            l.pathname.slice(0, -1) + decoded + l.hash,
+          );
         }
       })(window.location);
     </script>
-    <script type="module" crossorigin src="/quilt-studio/assets/index-COCdcfeq.js"></script>
-    <link rel="stylesheet" crossorigin href="/quilt-studio/assets/index-yBUuoYq5.css">
+    <script type="module" crossorigin src="/quilt-studio/assets/index-C1OIt8eo.js"></script>
+    <link rel="stylesheet" crossorigin href="/quilt-studio/assets/index-CD2B4Iuk.css">
   </head>
   <body>
     <div id="root"></div>
     <noscript>
-      <div style="max-width: 32rem; margin: 4rem auto; padding: 1.5rem; font-family: system-ui, sans-serif; text-align: center; color: #1a1a1a;">
-        <h1 style="margin: 0 0 0.5rem; font-size: 1.25rem;">JavaScript is required</h1>
-        <p style="margin: 0; line-height: 1.5;">
-          Quilt Studio needs JavaScript to design patterns and generate cutting lists.
-          Please enable JavaScript in your browser settings, then reload this page.
+      <div
+        style="
+          max-width: 32rem;
+          margin: 4rem auto;
+          padding: 1.5rem;
+          font-family: system-ui, sans-serif;
+          text-align: center;
+          color: #1a1a1a;
+        "
+      >
+        <h1 style="margin: 0 0 0.5rem; font-size: 1.25rem">
+          JavaScript is required
+        </h1>
+        <p style="margin: 0; line-height: 1.5">
+          Quilt Studio needs JavaScript to design patterns and generate cutting
+          lists. Please enable JavaScript in your browser settings, then reload
+          this page.
         </p>
       </div>
     </noscript>
